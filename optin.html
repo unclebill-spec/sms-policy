@@ -17,18 +17,26 @@
 <input id="consent" name="consent" type="checkbox" required style="margin-top:.35em;flex:none">
 <label for="consent">I agree to receive text messages from Will Weathersbee at the phone number above, including replies to my texts, schedule info, messages relayed for Will Weathersbee, and reminders. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase. See our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms &amp; Conditions</a>.</label>
 </p>
+<p style="font-size:.95em;color:#444">This checkbox is unchecked by default. You must check it yourself to sign up.</p>
 <p id="form-error" role="alert" style="color:#b00020;display:none"></p>
 <p><button type="submit" style="font-size:1em;padding:.5em 1.2em">Sign up</button></p>
-<p style="margin-bottom:0;font-size:.95em">Tapping Sign up opens a pre-filled text message with START to (854) 254-5107. Sending that text completes your sign-up, and you will receive this confirmation: &ldquo;Will Weathersbee: You're signed up for texts: replies to your texts, schedule info, messages relayed for Will Weathersbee, and reminders. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out.&rdquo;</p>
+<p style="margin-bottom:0;font-size:.95em">Tapping Sign up opens a pre-filled text message with START to (854) 254-5107. Sending that text completes your sign-up (double opt-in). You will then receive: &ldquo;Will Weathersbee: You're signed up for texts: replies to your texts, schedule info, messages relayed for Will Weathersbee, and reminders. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out.&rdquo;</p>
 </form>
 <div id="confirmation" role="status" style="display:none;border:1px solid #2e7d32;border-radius:6px;padding:1em 1.2em;margin:1.5em 0;background:#f1f8f1">
 <p style="margin-top:0"><strong>One more step: send the START text.</strong></p>
 <p>Your messaging app should now be open with a pre-filled text that says START to (854) 254-5107. Send it to complete your sign-up. You will then receive a confirmation text.</p>
 <p style="margin-bottom:0">If your messaging app did not open, <a id="sms-link" href="sms:+18542545107?&amp;body=START">tap here to text START to (854) 254-5107</a>.</p>
 </div>
+<h2>Messages you will receive about your sign-up</h2>
+<ul>
+<li><strong>Sign-up confirmation (after you send START):</strong> &ldquo;Will Weathersbee: You're signed up for texts: replies to your texts, schedule info, messages relayed for Will Weathersbee, and reminders. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out.&rdquo;</li>
+<li><strong>Reply to HELP:</strong> &ldquo;Will Weathersbee: For help, email unclebill@gmail.com. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out.&rdquo;</li>
+<li><strong>Reply to STOP:</strong> &ldquo;Will Weathersbee: You are unsubscribed and will receive no further messages. Reply START to resubscribe.&rdquo;</li>
+</ul>
 <p>Message frequency varies. Message and data rates may apply. Reply STOP to opt out at any time. Reply HELP for help.</p>
-<p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms &amp; Conditions</a> | <a href="index.html">Home</a></p>
-<p>Contact: unclebill@gmail.com</p>
+<p>No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Mobile phone numbers and SMS opt-in data and consent are never sold or shared with third parties or affiliates for marketing.</p>
+<p><a href="optin.html">Sign Up</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms &amp; Conditions</a> | <a href="index.html">Home</a></p>
+<p>Contact: Will Weathersbee, unclebill@gmail.com</p>
 <script>
 document.getElementById('optin-form').addEventListener('submit', function (e) {
   e.preventDefault();
